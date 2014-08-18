@@ -47,6 +47,12 @@ gem "figaro"
 #for email handling in development
 gem 'letter_opener', :group => :development
 
+#automated admin system
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+#user management
+gem 'devise'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
