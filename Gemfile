@@ -44,6 +44,9 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 #to keep my secret info
 gem "figaro"
 
+#for email handling in development
+gem 'letter_opener', :group => :development
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
