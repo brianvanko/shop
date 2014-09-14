@@ -58,6 +58,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'i18n', '>= 0.6.9'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
