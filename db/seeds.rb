@@ -45,3 +45,14 @@ growth_hacking_monthly = Product.create(title: "Growth Hacking Monthly",
  </p>
  <p>Follow me on Twitter <a href="https://twitter.com/mattangriffel" target="_blank">@mattangriffel</a></p>})
 
+ 
+
+
+#growth_hacking = Product.create(title: "Growth Hacking", 
+# subtitle: "Crash Course", author: "Mattan Griffel", 
+# price: "4.99", sku: "GROHACK1")
+
+#growth_hacking_monthly = Product.create(title: "Growth Hacking Monthly", 
+# subtitle: "Ongoing Course", author: "Mattan Griffel", 
+# price: "4.99", sku: "GROHACK2")
+
