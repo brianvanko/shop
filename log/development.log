@@ -12860,3 +12860,1010 @@ Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 
 
 
 Started GET "/assets/site-bg.gif" for 127.0.0.1 at 2014-09-20 12:00:01 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 17:55:24 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."sku" = 'GROHACK1' LIMIT 1
+  Rendered pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 290ms (Views: 274.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/header-image.jpg" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/one-month-logo.svg" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/teacher-image.jpg" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/site-bg.gif" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-20 17:55:25 -0700
+
+
+Started POST "/charges" for 127.0.0.1 at 2014-09-20 17:55:55 -0700
+Processing by ChargesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J6pPHdd8dga0zA6MEJXzLpGEVktL8b0epEmHHVw4lvQ=", "stripeToken"=>"tok_14eydo2YKrTY5PPm5jlsptuX", "stripeEmail"=>"aaa@aaa.com", "amount"=>"499"}
+Completed 500 Internal Server Error in 577ms
+
+NameError (undefined local variable or method `product' for #<ChargesController:0x007fe4e50ea160>):
+  app/controllers/charges_controller.rb:11:in `create'
+
+
+  Rendered /Users/brianvanko/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/brianvanko/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/brianvanko/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/brianvanko/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 17:58:00 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."sku" = 'GROHACK1' LIMIT 1
+  Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 227ms (Views: 212.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/header-image.jpg" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/one-month-logo.svg" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/teacher-image.jpg" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/site-bg.gif" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-20 17:58:01 -0700
+
+
+Started POST "/charges" for 127.0.0.1 at 2014-09-20 17:58:35 -0700
+Processing by ChargesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J6pPHdd8dga0zA6MEJXzLpGEVktL8b0epEmHHVw4lvQ=", "stripeToken"=>"tok_14eygN2YKrTY5PPmV9Ysa7ro", "stripeEmail"=>"vvv@asdf.com", "amount"=>"499"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `find_by_sky' for #<Class:0x007fccadcce1c0>):
+  app/controllers/charges_controller.rb:3:in `create'
+
+
+  Rendered /Users/brianvanko/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/brianvanko/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/brianvanko/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/brianvanko/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."sku" = 'GROHACK1' LIMIT 1
+  Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 232ms (Views: 217.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:34 -0700
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/header-image.jpg" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/one-month-logo.svg" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/teacher-image.jpg" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started GET "/assets/site-bg.gif" for 127.0.0.1 at 2014-09-20 17:59:35 -0700
+
+
+Started POST "/charges" for 127.0.0.1 at 2014-09-20 17:59:59 -0700
+Processing by ChargesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J6pPHdd8dga0zA6MEJXzLpGEVktL8b0epEmHHVw4lvQ=", "stripeToken"=>"tok_14eyhk2YKrTY5PPmVpZ3R8Uu", "stripeEmail"=>"zxcv@asdf.com", "amount"=>"499"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."sku" = 'GROHACK1' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.6ms)[0m  [1mINSERT INTO "purchases" ("amount", "card", "created_at", "currency", "customer_id", "description", "email", "product_id", "updated_at", "uuid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["amount", 499], ["card", "tok_14eyhk2YKrTY5PPmVpZ3R8Uu"], ["created_at", Sun, 21 Sep 2014 01:00:00 UTC +00:00], ["currency", "usd"], ["customer_id", "cus_4obvOfYnX7OQ9B"], ["description", "Growth Hacking Crash Course"], ["email", "zxcv@asdf.com"], ["product_id", 1], ["updated_at", Sun, 21 Sep 2014 01:00:00 UTC +00:00], ["uuid", "51d22574-0730-4d62-acb3-dde16125ddb2"]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered purchase_mailer/purchase_receipt.html.erb within layouts/purchase_mailer (2.4ms)
+  [1m[36m (6.2ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 1416ms
+
+ActionView::Template::Error (undefined method `download_url' for nil:NilClass):
+    2: 
+    3: Thanks for buying our ebook!
+    4: 
+    5: <a href="<%= @product.download_url %>"><button type="button" class="btn btn-success btn-xs">DOWNLOAD</button></a>
+  app/views/purchase_mailer/purchase_receipt.html.erb:5:in `_app_views_purchase_mailer_purchase_receipt_html_erb___1887240065199411807_70243465219660'
+  app/mailers/purchase_mailer.rb:7:in `purchase_receipt'
+  app/models/purchase.rb:11:in `email_purchaser'
+  app/controllers/charges_controller.rb:17:in `create'
+
+
+  Rendered /Users/brianvanko/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/brianvanko/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/brianvanko/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."sku" = 'GROHACK1' LIMIT 1
+  Rendered pages/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 235ms (Views: 220.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/header-image.jpg" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/one-month-logo.svg" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/teacher-image.jpg" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/site-bg.gif" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-20 18:03:56 -0700
+
+
+Started POST "/charges" for 127.0.0.1 at 2014-09-20 18:04:26 -0700
+Processing by ChargesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J6pPHdd8dga0zA6MEJXzLpGEVktL8b0epEmHHVw4lvQ=", "stripeToken"=>"tok_14eym32YKrTY5PPmGGO0DpGB", "stripeEmail"=>"zxcv@asdf.com", "amount"=>"499"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."sku" = 'GROHACK1' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "purchases" ("amount", "card", "created_at", "currency", "customer_id", "description", "email", "product_id", "updated_at", "uuid") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["amount", 499], ["card", "tok_14eym32YKrTY5PPmGGO0DpGB"], ["created_at", Sun, 21 Sep 2014 01:04:28 UTC +00:00], ["currency", "usd"], ["customer_id", "cus_4oc0kee41eVo3y"], ["description", "Growth Hacking Crash Course"], ["email", "zxcv@asdf.com"], ["product_id", 1], ["updated_at", Sun, 21 Sep 2014 01:04:28 UTC +00:00], ["uuid", "1e6808d9-2186-4d10-949b-e56e5352d0ee"]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered purchase_mailer/purchase_receipt.html.erb within layouts/purchase_mailer (0.4ms)
+
+Sent mail to zxcv@asdf.com (55.8ms)
+Date: Sat, 20 Sep 2014 18:04:28 -0700
+From: "BuyNow.Club" <admin@buynow.club>
+To: zxcv@asdf.com
+Message-ID: <541e241c4c96a_c1b93fd457045f18432ba@Brian-Vankos-iMac-2.local.mail>
+Subject: Thanks for your purchase!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+	<head>Buy Now Club Payments</head>
+	<body>
+
+		<p>Thanks!</p>
+
+Thanks for buying our ebook!
+
+<a href="https://s3.amazonaws.com/one-month-stripe-payments/Peter+Bell+Resume.pdf"<button type="button" class="btn btn-success btn-xs">DOWNLOAD</button></a>
+
+
+	</body>
+</html>
+
+
+  [1m[36m (13.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/purchases/1e6808d9-2186-4d10-949b-e56e5352d0ee
+Completed 302 Found in 1408ms (ActiveRecord: 17.4ms)
+
+
+Started GET "/purchases/1e6808d9-2186-4d10-949b-e56e5352d0ee" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+Processing by PurchasesController#show as HTML
+  Parameters: {"id"=>"1e6808d9-2186-4d10-949b-e56e5352d0ee"}
+  [1m[35mPurchase Load (0.2ms)[0m  SELECT "purchases".* FROM "purchases" WHERE "purchases"."uuid" = '1e6808d9-2186-4d10-949b-e56e5352d0ee' LIMIT 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered purchases/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/header-image.jpg" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/site-bg.gif" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/assets/dot-matrix.svg" for 127.0.0.1 at 2014-09-20 18:04:28 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+Processing by PagesController#home as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."sku" = 'GROHACK1' LIMIT 1
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap_and_customization.css?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/header-image.jpg" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/one-month-logo.svg" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/teacher-image.jpg" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
+
+
+Started GET "/assets/site-bg.gif" for 127.0.0.1 at 2014-09-20 18:05:09 -0700
