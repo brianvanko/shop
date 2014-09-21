@@ -4,7 +4,9 @@ Webshop::Application.routes.draw do
   root 'pages#home'
   #Support stripe payments trhough charges
   resources :charges
+  resources :products, only: [:index]
   resources :purchases, only: [:show]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
