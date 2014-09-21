@@ -1,7 +1,7 @@
 Webshop::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
-  root 'pages#home'
+  root 'products#index'
   #Support stripe payments trhough charges
   resources :charges
   resources :products, only: [:index, :show]
